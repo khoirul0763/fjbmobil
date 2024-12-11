@@ -12,10 +12,11 @@ app.secret_key = 'your_secret_key_here'  # Ganti dengan kunci rahasia yang kuat
 
 # Konfigurasi MySQL
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',  # Sesuaikan password MySQL Anda
-    'database': 'db_merek'  # Nama database
+    user="mobil", 
+    password="mobil_0000", 
+    host="mobil.mysql.database.azure.com", 
+    port=3306,
+    database="db_merek"  # Nama database
 }
 
 socketio = SocketIO(app)
