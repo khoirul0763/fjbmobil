@@ -14,7 +14,7 @@ app.secret_key = 'your_secret_key_here'  # Ganti dengan kunci rahasia yang kuat
 db_config = {
     user="fpmobil", 
     password="mobil_000", 
-    host="mobil.mysql.database.azure.com", 
+    host="fpmobil.mysql.database.azure.com", 
     port=3306,
     database="db_merek"  # Nama database
 }
