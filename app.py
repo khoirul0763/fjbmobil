@@ -13,7 +13,7 @@ app.secret_key = 'your_secret_key_here'  # Ganti dengan kunci rahasia yang kuat
 # Konfigurasi MySQL
 db_config = {
     user="mobil", 
-    password="mobil_0000", 
+    password="mobil_000", 
     host="mobil.mysql.database.azure.com", 
     port=3306,
     database="db_merek"  # Nama database
